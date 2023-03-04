@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+
+.app-container {
+  width: 50%;
+  margin: 50px auto;
+  min-height: 50vh;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  padding: 4px 10px;
+}
+
+input[type="text"],
+button {
+  margin: 5px;
+}
+
+button:first-child {
+  margin-right: 10px;
+}
+
+button#submit {
+  background-color: rgb(255, 145, 1);
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+}
+
+button#clear {
+  background-color: #d41414;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  margin: 5px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+span#deleteListItem {
+  position: absolute;
+  left: -20px;
+}
+
+span#deleteListItem::before {
+  content: "\2715";
+  color: rgb(10, 147, 246);
+}

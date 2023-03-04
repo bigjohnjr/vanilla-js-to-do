@@ -2,5 +2,5 @@
 <ul>
   <li>Created a small to-do app with vanilla JS for practice</li>
   <li>Created the HTML with JS alone at first for practice, then created added the HTML in manually.</li>
-  <li>Minimal CSS involvement because I wanted to focus on the JavaScript portion more</li>
+  <li>Minimal CSS involvement because my focus was on JavaScript</li>
 </ul>
